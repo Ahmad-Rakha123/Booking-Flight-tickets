@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Travel with Me.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h1> Prepare your next trip with me..... </h1>
+        <p> Please take a moment to get in touch I'll get back to you shortly. </p>
+        <div>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required placeholder="Please enter your full name">
+        </div>
+        <div>
+            <label for="e-mail">e-mail adress</label>
+            <input type="text" id="e-mail" name="e-mail" required placeholder="Please enter your e-mail adress">
+        </div>
+        <div>
+            <label for="Phone Number">Phone Number</label>
+            <input type="tel" id="telephone-number" name="telephone-number" required placeholder="Please enter your Phone Number">
+        </div>
+        <div>
+            <label for="gender"> Gender </label>
+        </div>
+        <div>
+            <input type="radio" name="Gender" id="male" value="Male">
+            <label class="inline-label" for="male"Male>Male</label>
+        </div>
+        <div>
+                <input type="radio" name="Gender" id="female" value="Female">
+                <label class="inline-label" for="female"Female>Female</label>
+        
+        </div>
+        <div>
+            <label for="date">Arriving date</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="date">Departure date</label>
+            <input type="date" id="date" name="date">
+        </div>
+        <div>
+            <label for="File"> Passport </label>
+            <input type="file" name="file" id="file">
+        </div>
+        <div>
+            <label for="cities"> Where would you like to travel? </label>
+            <select name="cities" id="cities">
+            <option value="">Choose one</option>
+            <option value="America">America</option>
+            <option value="Egypt">Egypt</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Saudi Arabia">Saudi Arabia</option>
+            <option value="England">England</option>
+            <option value="Netherlands">Netherlands</option>
+            <option value="Spain">Spain</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Poland">Poland</option>
+        </select>
+        </div>
+        <div>
+            <label for=""> Please check on the services you need. </label>
+            <div>
+                <input type="checkbox" name="Airline-Tickets" id="Airline-Tickets">
+                <label for="Airline-Tickets" class="inline-label">Airline-Tickets</label>
+
+            </div>
+            <div>
+                <input type="checkbox" name="Rental Car" id="Airline-Tickets">
+                <label for="Rental car" class="inline-label">Rental Car</label>
+
+            </div>
+            <div>
+                <input type="checkbox" name="Hotel Acommadations" id="Airline-Tickets">
+                <label for="Hotel Acommadations" class="inline-label">Hotel Accomations</label>
+
+            </div>
+        </div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
